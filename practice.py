@@ -1,0 +1,10 @@
+from random import*
+luckey = range(1,46)
+luckey = list(luckey)
+#print(luckey)
+shuffle(luckey)
+print(sample(luckey, 6))
+print(sample(luckey, 6))
+print(sample(luckey, 6))
+print(sample(luckey, 6))
+print(sample(luckey, 6))
